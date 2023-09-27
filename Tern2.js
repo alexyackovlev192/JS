@@ -3,6 +3,7 @@ function manyChecks(a) {
     a > 10 ? 'a is bigger than 10 ' : 'a is less than or equal to 10 ' + (a === 5 ? 'an example of a special case ' : '')) + (a === 15 ? '' : 'but a is not 15 ') + (a > 5 ? 'and a is greater than 5 ' : 'and a is less than or equal to 5 ') + (a % 2 ? 'and a is odd ' : 'and a is even ');
 }
 
+
 function myManyChecks(a) {
   result = ""
   if (a > 10) {
